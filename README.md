@@ -22,11 +22,30 @@ SO THAT I can keep a list of books to purchase
 
 # Website-Link
 
-This project was deployed using Render. (Link coming soon)
+This project was deployed using Render. ([Click here to view the webiste](https://mern-book-search-engine-txq7.onrender.com))
 
 ## Installation
 
-Run the following command to install the dependencies, `npm i`. 
+Run the following command to install the dependencies, `npm i` in the root folder, server folder, and client folder:
+
+root:
+    "@apollo/react-hooks"
+
+client:
+    "bootstrap"
+    "jwt-decode" 
+    "react"
+    "react-bootstrap"
+    "react-dom"
+    "react-router-dom"
+
+server:
+    "@apollo/server"
+    "bcrypt"
+    "express"
+    "graphql"
+    "jsonwebtoken"
+    "mongoose"
 
 ## Usage
 
