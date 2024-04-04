@@ -1,5 +1,5 @@
 // TODO: Define the query and mutation functionality to work with the Mongoose models.
-const { Book, User } = require('..models');
+const { Book, User } = require('../models');
 const { signToken, AuthenticationError } = require('../utils/auth');
 
 const resolvers = {
